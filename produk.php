@@ -28,12 +28,6 @@ $produk3->penulis = "Masashi Kishimoto";
 $produk3->penerbit = "Shonen Jump";
 $produk3->harga = 3000;
 
-echo "Komik : $produk3->penulis, $produk3->penerbit";
-echo "<br>";
-echo $produk3->getLabel();
-
-echo "<hr>";
-
 $produk4 = new Produk();
 $produk4->judul = "Uncharted";
 $produk4->penulis = "Neil Druckmann";
